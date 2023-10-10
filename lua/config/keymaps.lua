@@ -8,3 +8,7 @@ map("n", "<A-Up>", "<cmd>resize +2<cr>", { desc = "Increase window height" })
 map("n", "<A-Down>", "<cmd>resize -2<cr>", { desc = "Decrease window height" })
 map("n", "<A-Left>", "<cmd>vertical resize -2<cr>", { desc = "Decrease window width" })
 map("n", "<A-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase window width" })
+
+-- windows
+map("n", "<leader>w\\", "<C-W>v", { desc = "Split window right", remap = true })
+map("n", "<leader>\\", "<C-W>v", { desc = "Split window right", remap = true })
