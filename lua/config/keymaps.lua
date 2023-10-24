@@ -16,5 +16,7 @@ map("n", "<leader>\\", "<C-W>v", { desc = "Split window right", remap = true })
 -- Move Cursor
 map("i", "<C-f>", "<Right>", { desc = "Move cursor right", remap = true })
 map("i", "<C-b>", "<Left>", { desc = "Move cursor left", remap = true })
+map("i", "<C-p>", "<Up>", { desc = "Move cursor up", remap = true })
+map("i", "<C-n>", "<Down>", { desc = "Move cursor down", remap = true })
 map("i", "<C-a>", "<Home>", { desc = "Beginning of line", remap = true })
 map("i", "<C-e>", "<End>", { desc = "End of line", remap = true })
