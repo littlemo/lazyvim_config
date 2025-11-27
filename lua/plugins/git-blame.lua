@@ -12,7 +12,7 @@ return {
       },
       -- current_line_blame_formatter = "<author>, <author_time:%R> • <summary>",
       -- 自定义格式化（更详细版本）：
-      current_line_blame_formatter = "  <author> • <author_time:%R> (<author_time:%Y-%m-%d>) • <summary>",
+      current_line_blame_formatter = "  󰘬 <author> • <author_time:%R> (<author_time:%Y-%m-%d>) • <summary>",
     },
     keys = {
       -- 添加快捷键切换 blame 显示
